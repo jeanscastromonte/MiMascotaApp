@@ -1,0 +1,130 @@
+/**
+ * @fileOverview    
+ * @create          21/02/2018
+ * @version         
+ * @since           
+ * @author          Jean Carlos Sánchez Castromonte
+*/
+/*================================================================================================================================================================================*/
+/*Code QR*/
+#tag-codeqr {background: white; width: 11.60cm; height: 4cm; display: block; margin: 0 auto; margin-bottom: 0.5cm; box-shadow: 0 0 0.5cm rgba(0,0,0,0.5); border-radius: 15px; }
+#tag-codeqr table{border-collapse: initial; padding-top: 25px; padding-left: 15px; width: 70%; }
+#div-img-codeqr img{width: 80px;}
+@media print {
+	body, #tag-codeqr{padding: 0 auto; margin: 0 auto; box-shadow: 0; } 
+	#tag-codeqr{height: 3.49cm; } 
+	#tag-codeqr table{padding-top: 30px; } 
+}
+.printClass{background-color: #BDBCBC}
+#print-codeqr{padding-top: 50px;padding-bottom: 35px;}
+/*/**********************************************************************************************************************************************************************************/
+/*Modal*/
+.modal-backdrop{background-color: #000000;}
+/*/**********************************************************************************************************************************************************************************/
+/*Table*/
+.th-details{width: 1%;}
+.th-unseen{display: none;}
+/**********************************************************************************************************************************************************************************/
+/*Switch*/
+/********/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 14px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider2 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#efbcb3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider2:before {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 0;
+  bottom: 0;
+  top: -8px;
+  background-color: #941b06;
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-family: 'Material Icons';
+  content: "\E14C";
+  color:#fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+input:checked + .slider2 {
+  background-color: #A9D386;
+}
+
+input:focus + .slider2 {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider2:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+  background-color: #209522;
+  font-family: 'Material Icons';
+  content: "\E876";
+  color:#fff;
+  font-size: 20px;
+  text-align: center;
+}
+/* Rounded sliders */
+.slider2.round {
+  border-radius: 34px;
+}
+
+.slider2.round:before {
+  border-radius: 50%;
+}
+/**********************************************************************************************************************************************************************************/
+.text-center-vh{text-align: center;vertical-align: middle !important;}
+/**********************************************************************************************************************************************************************************/
+.error-inputtext{ border-color: #ff6357; }
+/**********************************************************************************************************************************************************************************/
+/*MODAL*/
+.modal-info2 .modal-header{background: #2296f3;text-align: left !important;}
+.modal-info2 .modal-header i{color:white;font-size:30px;position:relative;position: relative;top: 5px;left: 10px;}
+.modal-info2 .modal-header label{color:white;font-size:18px;padding-left: 20px;}
+
+.modal-danger2 .modal-header{background: #df5138;}
+.modal-danger2.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal-danger2.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.modal-danger2 .modal-dialog{display: inline-block;
+  text-align: left;
+  vertical-align: middle;}
+/*********************************************************************************************************************************************************************************/
+/* Use */
+.font-size-2rem{font-size: 2rem !important;}
+.i-delete{cursor:pointer; color:red;}
+.textarea-normal {resize: none; overflow-y: auto;}
+.textarea-material-normal {min-height: 40px !important; max-height: 80px !important;overflow-y: auto !important; padding-bottom:0px !important; }
+.div-dimage{padding-top: 30px;}
+/*********************************************************************************************************************************************************************************/
